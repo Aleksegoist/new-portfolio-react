@@ -66,7 +66,7 @@ const Navbar = () => {
             <p>GitHub</p>
           </div>
           <a href='#contact'>
-            <img src={email} className='navbar__email' alt='Email' />
+            <img src={email} className='navbar__email' alt='email' />
           </a>
         </div>
       </nav>

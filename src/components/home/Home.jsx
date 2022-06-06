@@ -12,16 +12,15 @@ const Home = () => {
         <div className='home__left'>
           <p className='home__left__subtitle'>Front-End Developer</p>
           <div className='home__left__title'>
-            <p>Talk is cheap.</p>
-            <p>Show me the code </p>
+            <p>Coding is what</p>
+            <p>I live by</p>
           </div>
-
           <div className='home__left__info'>
             <p>I design and code beautifully simple things,</p>
-            <p>and I love what I do.</p>
+            <p>and I love what I do</p>
           </div>
           <a className='home__left__a' href='#contact'>
-            Let's chat!{' '}
+            Let's chat!
           </a>
         </div>
         <div className='home__right'>
@@ -29,11 +28,11 @@ const Home = () => {
           <div className='home__right__circle home__right__react'>
             <img src={react} alt='react' />
           </div>
-          <div className='home__right__circle home__right__js'>
-            <img src={js} alt='js' />
-          </div>
           <div className='home__right__circle home__right__node'>
             <img src={node} alt='node' />
+          </div>
+          <div className='home__right__circle home__right__js'>
+            <img src={js} alt='js' />
           </div>
         </div>
         <div className='home__miniInfo'>

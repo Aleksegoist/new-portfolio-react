@@ -1,8 +1,9 @@
 * {
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   box-sizing: border-box;
   color: white;
   scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif;
+  background-color: #2d2e32;
 }
