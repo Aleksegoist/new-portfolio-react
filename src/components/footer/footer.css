@@ -10,31 +10,36 @@
 .footer__right {
   display: flex;
   align-items: baseline;
+  background-color: #25262a;
 }
 
 .footer__name {
   font-size: 30px;
   padding-right: 30px;
+  background-color: #25262a;
 }
 
 .footer__name > span {
   font-weight: 700;
+  background-color: #25262a;
 }
 
 .footer__copyRights {
   color: #9797a1;
+  background-color: #25262a;
 }
 
 .footer__socials {
   display: flex;
-  padding-right: 210px;
+  padding-right: 30px;
+  background-color: #25262a;
 }
 
 .footer__socials > img {
   width: 20px;
   margin-left: 20px;
   cursor: pointer;
-  filter: invert(1);
+  /* filter: invert(1); */
 }
 
 @media screen and (max-width: 1024px) {
@@ -68,5 +73,13 @@
   .footer__socials > img {
     margin-left: 0;
     margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .footer__socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

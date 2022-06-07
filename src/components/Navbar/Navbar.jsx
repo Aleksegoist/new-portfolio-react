@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import bars from '../../images/bars.svg';
 import close from '../../images/close.svg';
-import linkedIn from '../../images/linkedIn.svg';
-import github from '../../images/github.svg';
+import linkedIn from '../../images/linkedin.png';
+import github from '../../images/github-brands.png';
 import email from '../../images/email.svg';
 
 const Navbar = () => {
